@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>RGB Explorer</title>
+    <script defer src="RGB-Explorer.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="RGB-Explorer.css">
+</head>
+
+<body>
+
+    <div id="slidecontainer">
+        R:<input type="range" min="0" max="255" value="0" class="slider" id="R">
+        <div id="red-raw" class="inline-div">0</div> (<div id="red-pct" class="inline-div">0</div>%)<br>
+        G:<input type="range" min="0" max="255" value="0" class="slider" id="G">
+        <div id="green-raw" class="inline-div">0</div> (<div id="green-pct" class="inline-div">0</div>%)<br>
+        B:<input type="range" min="0" max="255" value="0" class="slider" id="B">
+        <div id="blue-raw" class="inline-div">0</div> (<div id="blue-pct" class="inline-div">0</div>%)<br>
+    </div>
+
+
+
+    <!--This is the important bit-->
+    <canvas id="canvas" width="500" height="500"></canvas>
+
+
+</body>
+
+</html>

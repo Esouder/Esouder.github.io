@@ -1,0 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+* {
+    
+    font-family: Inconsolata;
+   }
+#slidecontainer {
+    display: table;
+    margin: 0 auto; 
+  }
+
+.inline-div {
+    display:inline;
+}
+
+#canvas {
+    display: table;
+    margin: 0 auto; 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
