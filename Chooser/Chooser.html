@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Probability</title>
+    <script defer src="Chooser.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="Chooser.css">
+</head>
+
+<body>
+
+    <div class="menu">
+        <form id="options">
+            <label for="option1" id="option1label">Option 1: </label>
+            <input type="text" id="option1" name="option1">
+            <label for="option2" id="option2label">Option 2: </label>
+            <input type="text" id="option2" name="option1">
+            <label for="option3" id="option3label">Option 3: </label>
+            <input type="text" id="option3" name="option1" >
+
+        </form>
+        <button type="button" id="add" onclick="addButtonPress()">Add Option</button>
+        <button type="button" id="add" onclick="delButtonPress()">Remove Option</button>
+        <button type="button" id="choose" onclick="chooseButtonPress()">Choose</button>
+    </div>
+
+
+    <div class="response" id="response">
+        <!--this is where the answer goes-->
+    </div>
+
+
+
+
+
+</body>
+
+</html>
