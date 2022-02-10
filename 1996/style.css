@@ -1,0 +1,86 @@
+body {
+    background-image: url("background-stars.jpg");
+}
+
+h1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 5px 5px rgb(85, 0, 0)
+}
+
+h4 {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 5px 5px rgb(85, 0, 0)
+}
+
+.page-subtitle {
+    color: #FFF;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 4px 4px rgb(85, 0, 0)
+}
+
+.menu-item {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFF;
+    border-radius: 10px;
+    border: #FFF solid 10px;
+    text-align: center;
+}
+.menu-holder {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    table-layout: fixed;
+
+}
+
+.content-holder {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border: white 1px solid;
+    table-layout: fixed;
+
+}
+
+.content-cell {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+    table-layout: fixed;
+    vertical-align: top;
+
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subheading {
+    color: #FFF;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 4px 4px rgb(85, 0, 0)
+}
+
+.text-content {
+    color: #FFF;
+    text-align: left;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    color: white;
+  }
