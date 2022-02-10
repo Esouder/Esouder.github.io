@@ -24,14 +24,15 @@ h4 {
 }
 
 .menu-item {
+    min-width: 10ch;
     margin-left: auto;
     margin-right: auto;
     background-color: #FFF;
-    border-radius: 10px;
     border: #FFF solid 10px;
     text-align: center;
 }
 .menu-holder {
+    min-width: 500px
     width: 30%;
     margin-left: auto;
     margin-right: auto;
@@ -40,6 +41,7 @@ h4 {
 }
 
 .content-holder {
+    min-width: 500px;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
