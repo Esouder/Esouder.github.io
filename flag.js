@@ -1,9 +1,21 @@
 let flag_gen_button =document.getElementById('gen-flag')
 
 
-let flagCanvas = document.getElementById('flag');
+let flagCanvas = document.getElementById('flag-canvas');
 let ctx = flagCanvas.getContext('2d');
 let info_div=document.getElementById('info');
+
+// responsive canvas size
+
+let canvasWidth = document.getElementById('flag-canvas').width;
+let holderWidth = document.getElementById('flag-holder').width;
+let canvasHeight = document.getElementById('flag-canvas').height;
+let holderHeight = document.getElementById('flag-holder').height;
+
+function sizeHolderToCanvas(){
+    document.getElementById('flag-holder').width = canvasWidth;
+    document.getElementById('flag-holder').height = canvasHeight;
+}
 
 function randomColor(){
     return Math.floor(Math.random()*255);
@@ -83,8 +95,9 @@ function addOverlay(ctx,width){
     }
 }
 
-flag_gen_button.addEventListener("click", evt => {
+function generateFlag(){
     ctx.clearRect(0, 0, flagCanvas.width, flagCanvas.height);
+    sizeHolderToCanvas();
     
     let flagType=Math.floor(Math.random()*8);
     let width=Math.floor(Math.random()*30)+100;
@@ -197,4 +210,6 @@ flag_gen_button.addEventListener("click", evt => {
     }
 
     
-})
+}
+
+flag_gen_button.addEventListener("click", evt => generateFlag());
