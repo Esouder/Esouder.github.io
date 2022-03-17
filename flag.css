@@ -1,0 +1,22 @@
+/* imports */
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&family=Manrope:wght@500&family=Outfit:wght@500;700&display=swap');
+
+
+.main-button{
+    margin: 0 auto;
+    display: block;
+    padding: 10px;
+    font-size: max(1rem,1vw);
+}
+
+.action{
+    font-family: 'Manrope', sans-serif;
+}
+
+.flag{
+    padding: 20px;
+    width: 1000px;
+    height: 600px;
+    margin: auto;
+    display: block;
+}
