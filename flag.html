@@ -4,15 +4,19 @@
         <meta charset="utf-8">
         <title>Flag Generator</title>
         <script defer src="flag.js" charset="utf-8"></script>
+        <link rel="stylesheet" href="flag.css" type="text/css" />
     </head>
     <body>
-        <button id="gen-flag">Generate a Random Flag</button>
+        <button id="gen-flag" class="main-button action">Generate a Random Flag</button>
 
-        <div id="info">
-            <!--flag here-->
+
+
+        <div id="flag-holder" class="flag">
+            <canvas id="flag-canvas" width="1000" height="600"></canvas>
         </div>
 
-        <canvas id="flag" width="1000" height="600"></canvas>
+        <div id="info-div" class="content">
+        </div>
 
 
     </body>
