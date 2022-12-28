@@ -31,7 +31,7 @@ function formChanged(){
       }
     else{
         textYpos = 'bottom'; 
-        textPosition[1] = canvas.height-50
+        textPosition[1] = canvas.height-100
 
     }
 
