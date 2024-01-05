@@ -1,3 +1,6 @@
 [submodule "Cypher"]
 	path = Cypher
 	url = https://github.com/Esouder/Cypher
+[submodule "puzzles/daisychain"]
+	path = puzzles/daisychain
+	url = git@github.com:Esouder/daisy-chain-frontend.git
